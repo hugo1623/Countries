@@ -1,4 +1,4 @@
-using Countries.Models;
+using Countries.Models.Name;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -10,7 +10,7 @@ public class CensosController : ControllerBase
     private readonly string _rutaCenso;
     public CensosController()
     {
-        _rutaCenso = @"D:\Data\censo2023.json";
+        _rutaCenso = @"E:\repos\JavaScript\censo2023.json";
     }
 
     [HttpGet("mostrar-censo")]

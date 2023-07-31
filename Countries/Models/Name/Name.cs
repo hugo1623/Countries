@@ -1,4 +1,4 @@
-﻿namespace Countries.Models;
+﻿namespace Countries.Models.Name;
 
 public class Name
 {
